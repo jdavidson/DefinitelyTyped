@@ -24,6 +24,7 @@ declare namespace AnalyticsNode {
       traits?: Object;
       timestamp?: Date;
       context?: Object;
+      anonymousId?: string;
       integrations?: Integrations;
     }): Analytics;
 
@@ -34,6 +35,7 @@ declare namespace AnalyticsNode {
       properties?: Object;
       timestamp?: Date;
       context?: Object;
+      anonymousId?: string;
       integrations?: Integrations;
     }): Analytics;
 
@@ -64,7 +66,7 @@ declare namespace AnalyticsNode {
       traits?: Object;
       context?: Object;
       timestamp?: Date;
-      anonymous_id?: string | number;
+      anonymousId?: string;
       integrations?: Integrations;
     }): Analytics;
 
